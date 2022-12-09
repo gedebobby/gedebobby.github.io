@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
+
+/* Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #757575 #DFE9EB;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+	width: 8px;
+	width: 8px;
+  }
+  *::-webkit-scrollbar-track {
+	border-radius: 2px;
+	background-color: #DFE9EB;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+	background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+	background-color: #B8C0C2;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+	border-radius: 12px;
+	background-color: #757575;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+	background-color: #A3A3A3;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+	background-color: #A3A3A3;
+  }
+  
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.fa-big {
+    font-size: 4em;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* .color-secondary {
+    color: #003459;
+} */
+
+.header-top {
+    padding: 10px 0;
+    width: 100%;
+    background-color: #0f2c52;
+}
+
+.list-kontak li a{
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.img img {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+.jumbotron {
+    background-image: url('/img/kover.jpg');
+    background-size: cover;
+    height: 85vh;
+}
+
+.header-img {
+    height: 100vh;
+}
+
+.containers {
+    padding-top: 60px;
+    padding-bottom: 90px;
+
+}
+
+.section-content1 {
+	padding-top: 30px;
+    color:#313437;
+    background-color:#eef4f7;
+  }
+
+.sambutan {
+    width: 90%;
+    word-spacing: 5px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.p-sambutan {
+    padding: 40px;
+    border-radius: 5px;
+    background-color: #ffff;
+}
+
+.judul-konten {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.konten {
+    margin-top: 50px;
+}
+
+.bg-kepsek {
+    text-align: center;
+}
+
+.kepsek-img {
+    width: 400px;
+    height: 500px;
+}
+
+.section-content2 {
+    background-color: #003459;
+}
+
+
+.card-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* CARD BERITA */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* transition: 0.3s; */
+    border: none;
+}
+
+.max-height {
+    height: 300px;
+}
+    
+.text-muted i {
+      margin: 0 10px;
+}
+
+.padding-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.btn-secondary {
+    background-color: #003459;
+    border-radius: 5px;
+    border: none;
+    padding: 20 10px;
+    font-size: 10pt;
+}
+ 
+  
+.team-boxed .item {
+text-align:center;
+}
+
+.team-boxed .item .box {
+text-align:center;
+padding:30px;
+background-color:#fff;
+border-radius: 10px;
+}
+
+.team-boxed .item .name {
+font-weight:bold;
+margin-top:28px;
+margin-bottom:8px;
+color:inherit;
+}
+
+.team-boxed .item .title {
+text-transform:uppercase;
+font-weight:bold;
+color:#d0d0d0;
+letter-spacing:2px;
+font-size:13px;
+}
+
+.team-boxed .item .description {
+font-size:15px;
+margin-top:15px;
+margin-bottom:20px;
+}
+
+.team-boxed .item img {
+max-width:160px;
+}
+
+.team-boxed .social {
+font-size:18px;
+color:#a2a8ae;
+}
+
+.team-boxed .social a {
+color:inherit;
+margin:0 10px;
+display:inline-block;
+opacity:0.7;
+}
+
+.team-boxed .social a:hover {
+opacity:1;
+}
+
+/* END SAMBUTAN */
+
+/* CARD PENGUMUMAN */
+
+.pengumuman {
+    padding: 40px 30px;
+    background-color: #ffff;
+    border-radius: 10px;
+}
+
+.pengumuman-card {
+	width: 100%;
+	padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: none;
+}
+
+.pengumuman-wrap {
+	padding: 10px;
+	height: 500px;
+	overflow-y: scroll;
+}
+
+
+.pengumuman-card h1 {
+	font-size: 1.7rem;
+	margin-bottom: 10px;
+}
+
+/* .deskripsi {
+	padding: 1rem;
+    position: relative;
+    z-index: 1;
+} */
+
+.deskripsi .p {
+	text-align: justify;
+}
+
+.read-more {
+	text-align: right;
+}
+
+/* END CARD PENGUMUMAN */
+
+/* FOOTER */
+
+.logo-smp-footer {
+    margin-bottom: 30px;
+}
+
+.hubungi-kami h5 {
+    margin-bottom: 30px;
+}
+
+.sosmed {
+    margin-bottom: 30px;
+}
+
+.sosmed-ikon {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.sosmed-ikon a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #ffff
+}
+
+footer .containers {
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.copyright {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+
+
+
+/* @media only screen
+and (min-width : 1200) {
+
+
+} */
+
+/* //tablet landscape */
+@media screen and (min-width: 1024px) and (max-width: 1600px)  {
+
+} 
+
+/* //tablet portrait */
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+
+}
+
+
+/* //smartphone landscape */
+@media screen and (min-width: 480px) and (max-width: 767px)  {
+
+}
+
+/* //smartphone portrait */
+@media screen and (min-width: 320px)
+and (max-width: 479px) {
+
+    .header-top {
+        padding: 20px;
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    .img img {
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+
+    .jumbotron {
+        height: 50vh;
+        /* display: flex; */
+    }
+
+    .header-img {
+        height: 60vh;
+    
+    }
+
+    .section-content1 {
+        padding-top: 0;
+    }
+
+    .pengumuman {
+        margin-top: 25px;
+    }
+
+    .pengumuman h1 {
+        margin-bottom: 20px;
+    }
+
+    .containers {
+        padding-bottom: 50px;
+    }
+    
+    .judul-konten {
+        padding-top: 50px;
+        padding-bottom: 0;
+        text-align: center;
+    }
+    
+    .konten {
+    margin: 40px auto;
+    text-align: center;
+    }
+
+    .kepsek-img {
+        width: 200px;
+        height: 300px;
+    }
+
+    .p-sambutan {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .sambutan {
+        margin: auto;
+    }
+
+    .ikon {
+        margin-bottom: 40px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+    
+    .logo-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo-smp-footer {
+        margin-bottom: 50px;
+    }
+
+    .sosmed {
+        padding: 40px 0;
+    }
+
+    .sosmed-ikon {
+        /* background: #000; */
+        padding-top: 20px;
+    }
+
+    .sosmed-ikon a {
+        font-size: 2rem;
+        text-decoration: none;
+        color: #ffff
+    
+    }
+
+    .copyright {
+        margin-top: 0;
+        padding: 20px;
+    }
+
+    
+
+
+
+
+}
+
